@@ -165,7 +165,8 @@ function Picker({
                 type={openView as 'hours' | 'minutes' | 'seconds'}
                 onDateChange={handleDateChange}
                 onChange={handleChangeAndOpenNext}
-                openNextView={() => setOpenView(nextView)}
+                // openNextView={() => setOpenView(nextView)}
+                openNextView={() => console.log('!mui handle next view')}
                 openPreviousView={() => setOpenView(previousView)}
                 nextViewAvailable={!nextView}
                 previousViewAvailable={!previousView || isDatePickerView(previousView)}
