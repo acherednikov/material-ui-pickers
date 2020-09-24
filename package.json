@@ -2,7 +2,7 @@
   "name": "material-ui-pickers",
   "version": "4.0.0-alpha.11",
   "description": "Material-ui pickers root package",
-  "main": "lib/src/index.ts",
+  "main": "lib/index.js",
   "directories": {
     "doc": "docs",
     "lib": "lib"
