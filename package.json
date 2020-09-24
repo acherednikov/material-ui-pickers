@@ -1,5 +1,5 @@
 {
-  "name": "@material-ui/pickers",
+  "name": "material-ui-pickers",
   "version": "4.0.0-alpha.11",
   "private": true,
   "description": "Material-ui pickers root package",
